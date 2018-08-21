@@ -1,0 +1,192 @@
+/*
+Theme Name: Nativo
+Author: Katheryn y Manuel
+Author URI: http://nativo.design
+Description: Plantilla hecha para StartUp Miami un proyecto de Nativo
+Version: 1.0
+*/
+  
+ 
+  /* Mis estilos */
+  body{
+    margin: 0;
+    background: green;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  #menu-menu{
+    display: inline-flex;
+    list-style: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+    width: 100%;
+    font-family: 'Calling-Code';
+  }
+  #menu-menu li{
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: black;
+  }
+  #menu-menu a{
+    color: white;
+  }
+  #menu-menu li:nth-child(1){
+    background: #FC306C;
+  }
+  
+  #menu-menu li:nth-child(2){
+    background: #16E3F1;
+  }
+  
+  #menu-menu li:nth-child(3){
+    background: #7E00E4;
+  }
+  
+  #menu-menu li:nth-child(4){
+    background: #FF8F00;
+  }
+  
+  #menu-menu li:nth-child(5){
+    background: #FF00D1;
+  }
+  
+  #menu-menu li:nth-child(6){
+    background: #99AFFF;
+  }
+  
+  #menu-menu li:nth-child(7){
+    background: #254FE3;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+  }
+  .my-logo{
+    width: 30.64px;
+    height: 54px;
+    background: white;
+    margin-top: 46px;
+    margin-left: 27px;
+  }
+  .content-area{
+    padding-top: 22px;
+  }
+
+  .invertir-text{
+    transform: rotate(180deg);
+  }
+
+  .banner{
+    height: 1101px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    background: green;
+  }
+  
+  h1, h2{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 200px;
+    font-family: 'Proxima-Nova-Black';
+    font-weight: 900;
+    color: white;
+    letter-spacing: 81px;
+    text-transform: uppercase;
+    width: 1219px;
+    margin: 0 auto;
+  }
+  h1:nth-child(1){
+    margin-top: 197px; 
+  }
+  h1:nth-child(2){
+    transform: rotate(180deg);
+    margin-left: 265px;
+    text-align: right;
+  }
+  h2:nth-child(1n){
+    float: right;
+    margin-top: -257px;
+    margin-right: 220px;
+    width: auto;
+    -webkit-text-stroke: 3px white;
+    color: transparent;
+  }
+  h2:nth-child(2n){
+    float: none;
+    margin-top: auto;
+    text-align: right;
+    margin-right: 358px;
+  }
+  h3{
+    color: white;
+    float: left;
+    font-size: 35px;
+    width: 366px;
+    font-family: 'Proxima Nova';
+    margin-top: -203px;
+    margin-left: 354px;
+  }
+  h3::after{
+    content: '';
+    position: absolute;
+    width: 84px;
+    height: 1px;
+    background: white;
+    left: 18.5%;
+    top: 95%;
+  }
+  .fondoHome{
+    width: 100%;
+    height: 1221px;
+    background: black;
+    z-index: -1;
+    top: 0;
+    position: absolute;
+  }
+  .fhl, .fhr{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    background: #ff8f00;
+    background: -moz-linear-gradient(top, #ff8f00 0%, #ff175b 100%);
+    background: -webkit-linear-gradient(top, #ff8f00 0%,#ff175b 100%);
+    background: linear-gradient(to bottom, #ff8f00 0%,#ff175b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8f00', endColorstr='#ff175b',GradientType=0 );
+    border-bottom-left-radius: 50%;
+  }
+  .fhr{
+    right: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50%;
+    background: #ff175b;
+    background: -moz-linear-gradient(left, #ff175b 0%, #ff8f00 100%);
+    background: -webkit-linear-gradient(left, #ff175b 0%,#ff8f00 100%);
+    background: linear-gradient(to right, #ff175b 0%,#ff8f00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff175b', endColorstr='#ff8f00',GradientType=1 );
+  }
+  /* Fin mis estilos */
+
+  @media screen and (max-width: 800px) {
+    .article-loop {
+      width: 99%;
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .content-area,
+    .primary-sidebar {
+      width: 100%;
+    }
+  }
